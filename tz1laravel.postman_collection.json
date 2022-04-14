@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "ab21aecc-e30c-419c-a6ef-342272ebfbcf",
+		"name": "tz1laravel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post filtered",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "test value",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "fname",
+							"value": "Tom",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "lname",
+							"value": "Barakaa",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "pname",
+							"value": "google",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "plang",
+							"value": "php",
+							"type": "text"
+						},
+						{
+							"key": "mrole",
+							"value": "writer",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "outorder",
+							"value": "fname desc",
+							"type": "text"
+						},
+						{
+							"key": "apikey",
+							"value": "LkauGfa7^w23fadr$asdaqwSD52ahgsfdAzsxdQ12&a",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://tz1laravel.my/api/findmembs",
+					"protocol": "http",
+					"host": [
+						"tz1laravel",
+						"my"
+					],
+					"path": [
+						"api",
+						"findmembs"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "test work",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
